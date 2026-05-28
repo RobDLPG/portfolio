@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto De La Paz | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <div class="logo">
+                Roberto Carlos De La Paz García
+            </div>
+
+            <nav class="menu">
+                <a href="#about">Sobre mí</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <header class="hero">
+        <div class="container">
+
+            <h1>Roberto Carlos De La Paz García</h1>
+
+            <p class="subtitle">
+                Ingeniero en Ciencias de la Computación • Desarrollo Web • PHP • MySQL • JavaScript
+            </p>
+
+            <a href="#projects" class="btn">
+                Ver proyectos
+            </a>
+
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+
+            <h2>Sobre mí</h2>
+
+            <div class="card">
+
+                <p>
+                    Ingeniero en Ciencias de la Computación enfocado en el desarrollo de soluciones web y móviles,
+                    con experiencia en la creación de sistemas académicos, empresariales y proyectos personales.
+                    He trabajado con tecnologías como PHP, JavaScript, MySQL, Flutter y Python, desarrollando
+                    aplicaciones con funcionalidades en tiempo real, interfaces modernas y experiencias tipo PWA.
+                    Me interesa especialmente la integración de IA, automatización de procesos y el desarrollo de
+                    sistemas eficientes que resuelvan problemas reales en entornos educativos y empresariales.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+
+            <h2>Proyectos</h2>
+
+            <div class="cards">
+
+                <div class="card project-card">
+
+                    <h3>Sistema Pagaré Digital</h3>
+
+                    <span class="tag academico">Proyecto académico - Pasantía</span>
+
+                    <p>
+                        Sistema web para la gestión de pagarés digitales con actualización en tiempo real mediante AJAX.
+                        Proyecto desarrollado en entorno empresarial.
+                    </p>
+
+                    <ul class="project-highlights">
+                        <li>✔ CRUD completo de pagarés</li>
+                        <li>✔ Actualización en tiempo real con AJAX</li>
+                        <li>✔ Validaciones y flujo empresarial</li>
+                        <li>✔ Integración con MySQL</li>
+                    </ul>
+
+                </div>
+
+                <div class="card project-card">
+
+                    <h3>Sistema Web/Móvil de Tesis (PWA)</h3>
+
+                    <span class="tag academico">Proyecto académico</span>
+
+                    <p>
+                        Plataforma web con visión artificial e implementación de PWA, permitiendo funcionamiento offline
+                        y sincronización de datos en tiempo real.
+                    </p>
+
+                    <ul class="project-highlights">
+                        <li>✔ Aplicación tipo PWA instalable</li>
+                        <li>✔ Funcionalidad offline</li>
+                        <li>✔ Integración con visión artificial (OpenCV)</li>
+                        <li>✔ Sincronización de datos en tiempo real</li>
+                    </ul>
+
+                </div>
+
+                <div class="card project-card">
+
+                    <h3>Sistema de Facturación Web</h3>
+
+                    <span class="tag personal">Proyecto propio</span>
+
+                    <p>
+                        Sistema de facturación web con actualizaciones dinámicas mediante AJAX sin recargar la página.
+                    </p>
+
+                    <ul class="project-highlights">
+                        <li>✔ CRUD de facturación</li>
+                        <li>✔ Actualización asíncrona con AJAX</li>
+                        <li>✔ Interfaz web responsive</li>
+                        <li>✔ Integración con MySQL</li>
+                    </ul>
+
+                </div>
+
+                <div class="card project-card">
+
+                    <h3>Aplicación PWA Personal</h3>
+
+                    <span class="tag personal">Proyecto propio</span>
+
+                    <p>
+                        Progressive Web App desarrollada como práctica personal para explorar tecnologías móviles y web,
+                        con comportamiento similar a una aplicación nativa.
+                    </p>
+
+                    <ul class="project-highlights">
+                        <li>✔ PWA instalable</li>
+                        <li>✔ Experiencia tipo app móvil</li>
+                        <li>✔ Interfaz responsive</li>
+                        <li>✔ Uso de tecnologías web modernas</li>
+                    </ul>
+
+                </div>
+
+                <div class="card project-card">
+
+                    <h3>Sistema de Monitoreo con Screenshots</h3>
+
+                    <span class="tag personal">Proyecto propio</span>
+
+                    <p>
+                        Sistema de monitoreo que realiza capturas de pantalla periódicas y las almacena en una base de datos
+                        para su visualización desde una interfaz web.
+                    </p>
+
+                    <ul class="project-highlights">
+                        <li>✔ Captura automática de pantalla</li>
+                        <li>✔ Almacenamiento en base de datos</li>
+                        <li>✔ Visualización web de registros</li>
+                        <li>✔ Automatización con Python + PHP</li>
+                    </ul>
+
+                </div>
+
+                <div class="card project-card">
+
+                    <h3>Sistema de Tickets de Soporte Técnico</h3>
+
+                    <span class="tag academico">Proyecto académico - colaborativo</span>
+
+                    <p>
+                        Sistema web para gestión de tickets de soporte técnico, permitiendo la creación, asignación y seguimiento de incidencias en tiempo real.
+                    </p>
+
+                    <ul class="project-highlights">
+                        <li>✔ Gestión de tickets (CRUD)</li>
+                        <li>✔ Estados de incidencias (abierto, en proceso, cerrado)</li>
+                        <li>✔ Flujo de atención técnica</li>
+                        <li>✔ Interfaz web funcional para usuarios y administradores</li>
+                    </ul>
+
+                </div>
+
+                <div class="card project-card">
+
+                    <h3>Sistema de Gestión de Reservas Turísticas</h3>
+
+                    <span class="tag academico">Proyecto académico - colaborativo</span>
+
+                    <p>
+                        Plataforma web y móvil para la gestión de reservas turísticas, permitiendo el registro de usuarios,
+                        administración de destinos y control de reservas desde diferentes dispositivos.
+                    </p>
+
+                    <ul class="project-highlights">
+                        <li>✔ Sistema accesible desde web y dispositivos móviles</li>
+                        <li>✔ Gestión de reservas en línea</li>
+                        <li>✔ Administración de destinos turísticos</li>
+                        <li>✔ Control de disponibilidad en tiempo real</li>
+                        <li>✔ Base de datos relacional</li>
+                    </ul>
+
+                </div>
+
+                <div class="card project-card">
+
+                    <h3>Aplicación Móvil de Chat</h3>
+
+                    <span class="tag personal">Proyecto propio</span>
+
+                    <p>
+                        Aplicación móvil de mensajería desarrollada en Flutter, con interfaz moderna y comunicación en tiempo real.
+                    </p>
+
+                    <ul class="project-highlights">
+                        <li>✔ Desarrollo en Flutter</li>
+                        <li>✔ Interfaz móvil responsiva</li>
+                        <li>✔ Chat en tiempo real</li>
+                        <li>✔ Experiencia tipo app nativa</li>
+                    </ul>
+
+                </div>
+
+                <div class="card project-card">
+
+                    <h3>Asistente de IA Local</h3>
+
+                    <span class="tag personal">Proyecto propio</span>
+
+                    <p>
+                        Desarrollo de un asistente de inteligencia artificial local utilizando Python y Ollama,
+                        capaz de procesar y responder consultas en lenguaje natural sin depender de APIs externas.
+                    </p>
+
+                    <ul class="project-highlights">
+                        <li>✔ Integración con modelos locales mediante Ollama</li>
+                        <li>✔ Procesamiento de lenguaje natural (NLP)</li>
+                        <li>✔ Interfaz de interacción por consola</li>
+                        <li>✔ Ejecución local sin dependencia de servicios cloud</li>
+                    </ul>
+
+                </div>
+
+                <div class="card project-card">
+
+                    <h3>Colaboración en Sistemas Web</h3>
+
+                    <span class="tag academico">Colaborativo</span>
+
+                    <p>
+                        Participación en el desarrollo de sistemas web para terceros, aplicando PHP, MySQL y AJAX,
+                        optimizando interfaces con Bootstrap y mejorando la experiencia de usuario.
+                    </p>
+
+                    <ul class="project-highlights">
+                        <li>✔ Desarrollo colaborativo</li>
+                        <li>✔ Implementación de AJAX</li>
+                        <li>✔ Interfaces con Bootstrap</li>
+                        <li>✔ Optimización de UX</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+
+            <h2>Habilidades/Conocimiento</h2>
+
+            <div class="cards">
+                <div class="card">PHP</div>
+                <div class="card">JavaScript</div>
+                <div class="card">HTML</div>
+                <div class="card">CSS</div>
+                <div class="card">Bootstrap</div>
+                <div class="card">MySQL</div>
+                <div class="card">Python</div>
+                <div class="card">AJAX</div>
+                <div class="card">Power BI</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+
+            <h2>Contacto</h2>
+
+            <div class="cards">
+
+                <div class="card contact-card">
+                    <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+                    <p>
+                        <a href="mailto:delapazroberto14@gmail.com">
+                            delapazroberto14@gmail.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="card contact-card">
+                    <h3><i class="fa-solid fa-phone"></i> Teléfono</h3>
+                    <p>
+                        <a href="tel:+593996750628">
+                            +593 99 675 0628
+                        </a>
+                    </p>
+                </div>
+
+                <div class="card contact-card">
+                    <h3><i class="fa-solid fa-location-dot"></i> Ubicación</h3>
+                    <p>Guayaquil, Ecuador</p>
+                </div>
+
+                <div class="card contact-card">
+                    <h3><i class="fa-brands fa-linkedin"></i> LinkedIn</h3>
+                    <p>
+                        <a href="https://linkedin.com/in/robdlpg" target="_blank">
+                            Ver perfil
+                        </a>
+                    </p>
+                </div>
+
+                <div class="card contact-card">
+                    <h3><i class="fa-solid fa-file"></i> CV</h3>
+
+                    <a href="assets/CV_Roberto De La Paz.pdf" target="_blank">
+                        Obtén mi CV
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
